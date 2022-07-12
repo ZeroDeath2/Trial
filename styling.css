@@ -1,0 +1,54 @@
+body{
+    margin: 0px ;padding: 0px;
+    background-image: url(./hero1.jpeg);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow: auto;
+}
+  .topnav  {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  .topnav a {
+
+    font-family: sans-serif ;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #55d2fc;
+    color: white;
+  }
+  
+  
+  .icon{
+    right :0; padding: 5px;
+  }
+
+  .pane{
+    display: inline;
+    width: 25%;
+    height: 100%;
+    border: 1px;
+    background-color: black;
+  }
+
+  .container{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    text-align:left;
+    text-shadow: 2px 2px 2px rgb(128, 128, 128);
+  }
